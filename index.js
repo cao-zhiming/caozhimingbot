@@ -18,7 +18,7 @@ async function main() {
           commands: [
             {
               name: 'ceclia sourcecode',
-              description: 'Get the source code of this bot.',
+              description: 'Gets the source code of this bot.',
               usage: '!cecilia sourcecode',
             },
           ],
@@ -36,7 +36,7 @@ async function main() {
       }
 
       bot.chat.send(message.conversationId, {
-        body: message.content.text.body.substr(6),
+        body: `There, my source code is open at github.com/cao-zhiming/caozhimingbot , forks and issues are always welcomed!!`,
       })
     }
 
