@@ -31,13 +31,19 @@ async function main() {
         return
       }
 
-      if (!message.content.text.body.startsWith('!cecilia sourcecode ')) {
-        return    // To be continued...
+      if (message.content.text.body.startsWith('!cecilia sourcecode ')) {
+        bot.chat.send(message.conversationId, {
+          body: `There, my source code is open at github.com/cao-zhiming/caozhimingbot , forks and issues are always welcomed!!`,
+      })
       }
 
-      bot.chat.send(message.conversationId, {
-        body: `There, my source code is open at github.com/cao-zhiming/caozhimingbot , forks and issues are always welcomed!!`,
+if (message.content.text.body.startsWith('!cecilia sourcecode ')) {
+        bot.chat.send(message.conversationId, {
+          body: `There, my source code is open at github.com/cao-zhiming/caozhimingbot , forks and issues are always welcomed!!`,
       })
+      }
+
+     
     }
 
     const onError = e => console.error(e)
