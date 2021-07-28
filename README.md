@@ -19,6 +19,12 @@ npm install keybase-bot
 
 ## 3. [Fork this repo](https://github.com/cao-zhiming/caozhimingbot/fork).
 ## 4. Edit the **username** and **paperkey** variables to your **Keybase username** and your **Keybase paperkey**(you can create one on the Keybase app).
+The lines are [here](https://github.com/cao-zhiming/caozhimingbot/blob/main/index.js#L7-L8), just edit them like this:
+
+```javascript
+const username = 'caozhimingbot'
+const paperkey = 'maybe this bot is the greatest bot a middle school student can ever build' // Suppose your paper key is that, just copy and paste here.
+```
 ## 5. Put it on your server which has the Keybase app and the Keybase-bot dependecies.
 ## 6. Run the command shown below:
 
