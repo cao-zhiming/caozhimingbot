@@ -17,9 +17,14 @@ async function main() {
           type: 'public',
           commands: [
             {
-              name: 'ceclia sourcecode',
+              name: '!ceclia sourcecode',
               description: 'Gets the source code of this bot.',
               usage: '!cecilia sourcecode',
+            },
+            {
+              name: '!ceclia help',
+              description: 'Gets the commands list of this bot.',
+              usage: '!cecilia help',
             },
           ],
         },
@@ -37,9 +42,9 @@ async function main() {
       })
       }
 
-if (message.content.text.body.startsWith('!cecilia sourcecode ')) {
+if (message.content.text.body.startsWith('!cecilia help ')) {
         bot.chat.send(message.conversationId, {
-          body: `There, my source code is open at github.com/cao-zhiming/caozhimingbot , forks and issues are always welcomed!!`,
+          body: `My commands are shown here:`,
       })
       }
 
