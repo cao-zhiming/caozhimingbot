@@ -13,7 +13,7 @@ Here is the docs for using.
 Firstly, make sure you have installed [node](https://nodejs.org) (version>=12).
 
 ## 1. Install [the Keybase app](https://keybase.io/download) on your server and make sure it's running.
-## 2. Install the [Keybase-bot](https://github.com/keybase/keybase-bot) dependecies:
+## 2. Install the [Keybase-bot](https://github.com/keybase/keybase-bot) dependencies:
 
 ``` bash
 npm install keybase-bot
@@ -27,7 +27,7 @@ The lines are [here](https://github.com/cao-zhiming/caozhimingbot/blob/main/inde
 const username = 'caozhimingbot'
 const paperkey = 'maybe this bot is the greatest bot a middle school student can ever build' // Suppose your paper key is that, just copy and paste here.
 ```
-## 5. Put it on your server which has the Keybase app and the Keybase-bot dependecies.
+## 5. Put it on your server which has the Keybase app and the Keybase-bot dependencies.
 ## 6. Run the command shown below:
 
 ```bash
