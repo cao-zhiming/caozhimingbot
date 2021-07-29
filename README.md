@@ -43,7 +43,7 @@ Welcome! Pull requests, Issues and Discussions are all, always welcomed!!
 
 ## 1. Could you recommend me some servers to run this?
 
-*Servers??!* Are you serious? Currently, **I myself** still haven't got my own servers yet and I am still using @Ella1102-Python 's sever(and by the way, thanks to her for providing that server).
+*Servers??!* Are you serious? Currently, **I myself** still haven't got my own servers yet and I am still using [@Ella1102-Python](https://github.com/Ella1102-Python) 's sever(and by the way, thanks to her for providing that server).
 
 Anyway, I am going to provide you with some servers I think may go well with my program.
 
@@ -72,4 +72,4 @@ Your messages data will go to the Keybase servers as secret words no one could u
 
 ## 4. Is this a production all by yourself?
 
-Nahhhh... not 100% really. **Technically, I coded most of the commands and programs and fixed most of the bugs(because there will still be many)**, but the server is by @Ella1102-Python , the app and the Keybase-bot dependencies are from @Keybase . Thanks a lot.
+Nahhhh... not 100% really. **Technically, I coded most of the commands and programs and fixed most of the bugs(because there will still be many)**, but the server is by [@Ella1102-Python](https://github.com/Ella1102-Python) , the app and the Keybase-bot dependencies are from [@Keybase](https://github.com/Keybase) . Thanks a lot.
