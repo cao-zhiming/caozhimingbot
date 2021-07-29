@@ -38,3 +38,9 @@ node <the-file-name>.js
 # Contributions
 
 Welcome! Pull requests, Issues and Discussions are all, always welcomed!!
+
+# FAQ
+
+## 1. Could you recommend me some servers to run this?
+
+*Servers??!*
