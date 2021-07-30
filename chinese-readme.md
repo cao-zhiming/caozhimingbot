@@ -1,4 +1,3 @@
-
 **如果你需要[English（英文）](https://github.com/cao-zhiming/caozhimingbot/) 版本请前往查看。**
 
 这是一个Keybase机器人， [CaozhimingBot，也被称作Cecilia Keybot](https://keybase.io/caozhimingbot)的JS内核。
@@ -68,13 +67,10 @@ node <文件名>.js
 
 ## 3. 这安全吗？我的数据会去哪里？
 
-翻译正待续。
+😥这还用问？所有消息均已经被Keybase严格加密了，想入侵都难。而我本人自然也不会让我的机器人把你的隐私或者个人信息发送到我这里或者任何第三方平台。如果你仍感担忧，你可以把每一行这里的代码都翻开看看！！眼见为实嘛。
 
-😥Why are you asking this? All messages are being crypto-ed by Keybase and it's hard to hack. And I of course won't let my bot send me or any third-party services your privacy or self-data. And you don't need to send your self-data, too. If you are still concerned, the source code is just here!! Seeing is believing.
+你的消息会先到Keybase的服务器上并转为无人能解的密文。然后它会被另一服务器上的这个机器人所接收。然后机器人会细细品味你发来的话并思考该说点什么，接着把她的消息扔给Keybase软件，这消息再次在Keybase服务器被加密，然后被你接收到。
 
-Your messages data will go to the Keybase servers as secret words no one could understand. Then it will be recieved by the bot on its server on its server. Then the bot will have a good look at your message and think of what to reply, then throws her message to the Keybase app, which then gets crypto-ed and goes to the Keybase servers again, and you now recieve it.
+## 4. 这完全是你做的吗？
 
-## 4. Is this a production all by yourself?
-
-Nahhhh... not 100% really. **Technically, I coded most of the commands and programs and fixed most of the bugs(because there will still be many)**, but the server is by [@Ella1102-Python](https://github.com/Ella1102-Python) , the app and the Keybase-bot dependencies are from [@Keybase](https://github.com/Keybase) . Thanks a lot.
-
+额……不完全100%是。**准确地说，我把几乎全部代码给写了并弄没了大部分bug（但总会还有很多bug的）**，但是服务器是由[@Ella1102-Python](https://github.com/Ella1102-Python)提供的，且Keybase软件与Keybase-bot依赖库由[@Keybase](https://github.com/Keybase)提供。对他们深表感谢。
