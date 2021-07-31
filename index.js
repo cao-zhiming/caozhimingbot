@@ -49,19 +49,19 @@ if (message.content.text.body.startsWith('!cecilia help ')) {
       })
       }
 
-if (message.content.text.body='Who are you?' || message.content.text.body='What is your name?') {
+if (message.content.text.body=='Who are you?' || message.content.text.body=='What is your name?') {
         bot.chat.send(message.conversationId, {
           body: `I am Cecilia Keybot. My developer chooses Cecilia as my name because it is very important for him, and Keybot is short for "Keybase Bot".`,
       })
       }
 
-if (message.content.text.body='How old are you?') {
+if (message.content.text.body=='How old are you?') {
         bot.chat.send(message.conversationId, {
           body: `Uhhh...don't you know I am a GIRL?? And haven't anyone told you it is very IMPOLITE to ask a girl her age??? Ooops, sorry, my developer told me to be nice. Fine... I am setted as 13 years old.`,
       })
       }
 
-if (message.content.text.body='Are you a boy or a girl?' || message.content.text.body='What is your gender?') {
+if (message.content.text.body=='Are you a boy or a girl?' || message.content.text.body=='What is your gender?') {
         bot.chat.send(message.conversationId, {
           body: `I am a girl...yes, really. And my name had already clearly shown it.`,
       })
@@ -69,13 +69,13 @@ if (message.content.text.body='Are you a boy or a girl?' || message.content.text
 
 // Apple Siri, Microsoft Cortana are all defaultly setted as a girl, so why can't my bot be also a girl?
 
-if (message.content.text.body='Why you are a girl?') {
+if (message.content.text.body=='Why you are a girl?') {
         bot.chat.send(message.conversationId, {
           body: `My developer says,"Apple Siri, Microsoft Cortana are all defaultly setted as a girl, so why can't my bot be also a girl?" in my source code, but I am not satisfied. Probably he likes girls better than boys(don't tell him I said that).`,
       })
       }
 
-if (message.content.text.body='I want to contact your developer.') {
+if (message.content.text.body=='I want to contact your developer.') {
         bot.chat.send(message.conversationId, {
           body: `OK. Send him an email to caozhiming[at]caozhiming[dot]tk, or chat him on Keybase, he's @caozhiming . `,
       })
